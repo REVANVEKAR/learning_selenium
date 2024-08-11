@@ -29,6 +29,10 @@ slider_max = driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/div[1]/div[
 
 # min and max slider
 
+action = ActionChains(driver)
+
+
+# using actionchain
 driver.quit()
 # ending the webdriver session
 
